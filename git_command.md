@@ -1,15 +1,15 @@
-### Creating local repository
+1. ### Creating local repository
 
 ```bash
 git init
 ```
 
-### Checking git version
+2. ### Checking git version
 ```bash
 git --version
 ```
 
-### Adding files to index
+3. ### Adding files to index
 ```bash
 git add ***.html (specific file)
 
@@ -17,12 +17,23 @@ or
 
 git add . (all files)
 ```
-### Checking whether files were added to index
+4. ### Checking whether files were added to index
 ```bash
 git status
 ```
 
-### Committing
+5. ### Committing
 ```bash
 git commit -m 'Some Comment'
 ```
+
+6. ### Pushing to remote repository
+```bash
+git remote add origin https://github.com/USER_ID/REPOSITORY_NAME
+
+git push origin master
+```
+
+7. ### Updating sources and push
+
+repeat from 3 to 6.
